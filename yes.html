@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1 class="header_text">Yeeyy ! Finally</h1>
+      </div>
+      <div class="gif_container">
+        <img
+          src="image/yes.gif"
+          alt="Cute animated illustration"
+        />
+      </div>
+      <div class="final">
+        <button class="btn" id="yesButton" onclick="Message()">
+            Let's Fix a Date
+          </button>
+          <script>
+            function Message(){
+               var name= prompt("hey Dear..your's name!");
+                document.getElementById("yesButton").innerHTML="I like you "+name+'❤️';
+            }
+          </script>
+      </div>
+    </div>
+  </body>
+</html>
